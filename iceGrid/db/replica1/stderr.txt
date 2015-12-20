@@ -1,0 +1,288 @@
+-- 10/22/15 11:18:33.601 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:18:37.605 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:18:47.606 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:18:51.672 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:19:01.672 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:19:05.739 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:19:15.739 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:19:19.822 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:19:29.822 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:19:33.913 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:19:43.914 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:19:47.970 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:20:01.194 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:20:05.206 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:20:15.207 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:20:19.292 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:20:29.293 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:20:33.377 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:20:43.377 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:20:47.451 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:20:57.452 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:21:01.516 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:21:11.517 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:21:15.594 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:21:25.595 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:21:29.683 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:21:39.684 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:21:43.748 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:21:53.750 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:21:57.826 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:22:07.826 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:22:11.926 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:22:21.927 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:22:26.000 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:22:36.001 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:22:40.059 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:22:50.060 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:22:54.134 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:23:04.134 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:23:08.235 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:23:18.235 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:23:22.339 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:23:32.340 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:23:36.418 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:23:46.419 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:23:50.492 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:24:00.493 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:24:04.584 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:24:14.585 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:24:18.668 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:24:28.669 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:24:32.745 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:24:42.746 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:24:46.840 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:24:56.841 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:25:00.911 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:25:10.912 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:25:14.985 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:25:24.985 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:25:29.043 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:25:39.043 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:25:43.123 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:25:53.124 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:25:57.193 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:26:07.194 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:26:11.278 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:26:21.279 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:26:25.361 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:26:35.361 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:26:39.445 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:26:49.445 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:26:53.518 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:27:03.519 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:27:07.628 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:27:17.629 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:27:21.720 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:27:31.721 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:27:35.787 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:27:45.787 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:27:49.864 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:27:59.864 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:28:03.971 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:28:13.971 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:28:18.038 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:28:28.039 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:28:32.139 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:28:42.140 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:28:46.231 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:28:56.231 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:29:00.315 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:29:10.315 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:29:14.398 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:29:24.398 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:29:28.479 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:29:38.480 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:29:42.563 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:29:52.564 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:29:56.656 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:30:06.657 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:30:10.722 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:30:20.722 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:30:24.804 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:30:34.804 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:30:38.881 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:30:48.882 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:30:52.955 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:31:02.957 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:31:07.012 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:31:17.013 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:31:21.114 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:31:31.114 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:31:35.199 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:31:45.199 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:31:49.296 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:31:59.297 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:32:03.364 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:32:13.365 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:32:17.437 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:32:27.438 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:32:31.515 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:32:41.515 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:32:45.592 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:32:55.593 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:32:59.697 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:33:09.698 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:33:13.781 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:33:23.782 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:33:27.867 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:33:37.869 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:33:41.943 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:33:51.943 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:33:56.014 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:34:06.014 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:34:10.093 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:34:20.094 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:34:24.181 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:34:34.184 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:34:38.259 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:34:48.260 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:34:52.342 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:35:02.342 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:35:06.418 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:35:16.418 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:35:20.481 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:35:30.482 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:35:34.566 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:35:44.567 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:35:48.634 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:35:58.635 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:36:02.710 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:36:12.710 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:36:16.782 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:36:26.782 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:36:30.867 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:36:40.867 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:36:44.934 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:36:54.935 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:36:59.025 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:37:09.026 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:37:13.297 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:37:23.297 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:37:27.376 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:37:37.376 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:37:41.453 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:37:51.453 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:37:55.545 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:38:05.546 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:38:09.638 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:38:19.639 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:38:23.712 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:38:33.713 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:38:37.785 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:38:47.785 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:38:51.869 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:39:01.869 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:39:05.952 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:39:15.953 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:39:20.030 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:39:30.031 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:39:34.118 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:39:44.119 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:39:48.194 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:39:58.194 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:40:02.300 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:40:12.300 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:40:16.368 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:40:26.369 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:40:30.435 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:40:40.437 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:40:44.494 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy
+-- 10/22/15 11:40:54.495 Replica1: Replica: trying to establish session with master replica
+-- 10/22/15 11:40:58.563 Replica1: Replica: failed to establish session with master replica:
+   failed to get replica proxy

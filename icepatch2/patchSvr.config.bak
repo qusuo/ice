@@ -1,0 +1,2 @@
+IcePatch2.Directory=./data_dir
+IcePatch2.Endpoints=tcp -h 172.0.0.1 -p 12345

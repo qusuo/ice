@@ -1,0 +1,43 @@
+<!--
+ **********************************************************************
+
+ Copyright (c) 2003-2013 ZeroC, Inc. All rights reserved.
+
+ This copy of Ice is licensed to you under the terms described in the
+ ICE_LICENSE file included in this distribution.
+
+ **********************************************************************
+-->
+
+<icegrid>
+  <application name="GridPatch2Test">
+
+    <server-template id="IcePatch2">
+
+      <parameter name="instance-name" default="${application}.IcePatch2"/>
+      <parameter name="endpoints" default="default"/>
+      <parameter name="directory"/>
+
+      <server id="${instance-name}" exe="icepatch2server" application-distrib="false" activation="on-demand">
+
+        <adapter name="IcePatch2" endpoints="${endpoints}">
+          <object identity="${instance-name}/server" type="::IcePatch2::FileServer"/>
+        </adapter>
+
+        <properties>
+          <property name="IcePatch2.InstanceName" value="${instance-name}"/>
+          <property name="IcePatch2.Directory" value="${directory}"/>
+        </properties>
+      </server>
+
+    </server-template>
+    
+    <node name="node1">
+      <server-instance template="IcePatch2" directory="data_dir"/>
+    </node>
+    <!--<node name="Node2">
+      <server-instance template="IcePatch2" directory="data_dir" index="2"/>
+    </node>-->
+
+  </application>
+</icegrid>

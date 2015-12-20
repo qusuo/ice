@@ -1,0 +1,2 @@
+IcePatch2Client.Directory=./update
+IcePatch2Client.Proxy=baiUpdate/server:tcp -h 192.168.1.101 -p 12345

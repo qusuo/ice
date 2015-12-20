@@ -1,0 +1,8 @@
+IcePatch2Client.Directory=./update
+
+#
+# The IceGrid locator proxy.
+#
+Ice.Default.Locator=DemoIceGrid/Locator:default -h localhost -p 4061 -t 30000
+
+IcePatch2Client.Proxy=GridPatch2Test.IcePatch2/server

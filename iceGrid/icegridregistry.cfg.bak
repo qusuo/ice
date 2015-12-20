@@ -1,0 +1,157 @@
+#
+# Sample configuration file for the IceGrid registry service
+#
+
+#
+# The IceGrid instance name - must be unique to distinguish
+# unrelated IceGrid deployments.
+#
+IceGrid.InstanceName=DemoIceGrid
+
+#
+# Client object adapter: listens on the loopback interface by default.
+#
+# IANA-registered TCP ports for the IceGrid registry:
+# - 4061 (insecure)
+# - 4062 (secure, using SSL)
+#
+# These endpoints must be accessible to Ice clients and servers as
+# well as the IceGrid administrative utilities.
+#
+# To listen on an additional interface, add an additional endpoint with
+# -h <name | IP address>, or remove -h localhost to listen on all
+# interfaces.
+#
+IceGrid.Registry.Client.Endpoints=tcp -t 10000 -p 4061
+#IceGrid.Registry.Client.Endpoints=ssl -p 4062 -h localhost
+#IceGrid.Registry.Client.Endpoints=tcp -p 4061 -h localhost:ssl -p 4062 -h localhost
+
+#
+# Server and Internal object adapters: listen on the loopback
+# interface using an OS-assigned port number.
+#
+# The Server endpoints must be accessible to Ice servers deployed on
+# IceGrid nodes or to Ice servers using IceGrid dynamic registration.
+# The Internal endpoints must be accessible to IceGrid nodes.
+#
+# To listen on an additional interface, add an additional endpoint with
+# -h <name | IP address>, or remove -h localhost to listen on all
+# interfaces. Note that access to these endpoints can pose a security
+# risk (remote code execution) and therefore these endpoints should be
+# secured. See the Ice manual for more information.
+#
+IceGrid.Registry.Server.Endpoints=tcp -t 10000 -h localhost
+IceGrid.Registry.Internal.Endpoints=tcp -t 30000 -h localhost
+
+#
+# The directory where the IceGrid registry maintains its databases.
+# This directory must already exist when the registry starts.
+#
+# The path names below are merely suggestions, based on the assumption
+# that the registry is running under the Local Service account. The first
+# path is for Windows Vista or later, the second is for earlier Windows
+# versions.
+#
+IceGrid.Registry.Data=db/registry
+#IceGrid.Registry.Data=C:\Documents and Settings\LocalService\Local Settings\Application Data\ZeroC\icegrid\registry
+
+#
+# Authentication/authorization
+#
+# Using a NullPermissionsVerifier accepts any username/password
+# combination (not recommended for production).
+#
+IceGrid.Registry.PermissionsVerifier=DemoIceGrid/NullPermissionsVerifier
+IceGrid.Registry.AdminPermissionsVerifier=DemoIceGrid/NullPermissionsVerifier
+IceGrid.Registry.SSLPermissionsVerifier=DemoIceGrid/NullSSLPermissionsVerifier
+IceGrid.Registry.AdminSSLPermissionsVerifier=DemoIceGrid/NullSSLPermissionsVerifier
+
+#
+# Default templates
+#
+#IceGrid.Registry.DefaultTemplates=C:\Program Files (x86)\ZeroC\Ice-3.5.1\config\templates.xml
+
+#
+# Trace properties.
+#
+IceGrid.Registry.Trace.Node=1
+IceGrid.Registry.Trace.Replica=1
+
+
+
+
+#
+# IceGrid node configuration.
+#
+
+
+#IceGrid.Registry.DynamicRegistration=1
+
+#
+# Sample configuration file for the IceGrid node service
+#
+
+#
+# Proxy to the IceGrid registry - TCP is used by default.
+#
+Ice.Default.Locator=DemoIceGrid/Locator:tcp -t 10000 -h localhost -p 4061
+#Ice.Default.Locator=DemoIceGrid/Locator:ssl -h localhost -p 4062
+
+#
+# The name of this node - must be unique within an IceGrid deployment.
+#
+IceGrid.Node.Name=node1
+
+#
+# The node's object adapter listens on the loopback interface using an
+# OS-assigned port.
+#
+# These endpoints must be accessible to IceGrid registries.
+#
+# To listen on an additional interface, add an additional endpoint with
+# -h <name | IP address> or remove -h localhost to listen on all
+# interfaces. Note that access to these endpoints can pose a security
+# risk (remote code execution) and therefore these endpoints should be
+# secured. See the Ice manual for more information.
+#
+IceGrid.Node.Endpoints=tcp -t 10000 -h localhost
+
+#
+# The directory where the IceGrid node maintains its data (such as server
+# configuration files). This directory must already exist when the node
+# starts.
+#
+# The path names below are merely suggestions, based on the assumption
+# that the node is running under the Local Service account. The first
+# path is for Windows Vista or later, the second is for earlier Windows
+# versions.
+#
+IceGrid.Node.Data=db/node
+#IceGrid.Node.Data=C:\Documents and Settings\LocalService\Local Settings\Application Data\ZeroC\icegrid\node1
+
+#
+# Redirect server stdout and stderr to files in the specified directory.
+#
+IceGrid.Node.Output=db
+#IceGrid.Node.Output=C:\Documents and Settings\LocalService\Local Settings\Application Data\ZeroC\icegrid\node1
+#IceGrid.Node.RedirectErrToOut=1
+
+IceGrid.Node.CollocateRegistry=1
+
+#
+# Trace properties. Uncomment the other trace properties and select a
+# suitable tracing level if you are having problems with activating
+# servers.
+#
+IceGrid.Node.Trace.Replica=2
+IceGrid.Node.Trace.Activator=3
+IceGrid.Node.Trace.Adapter=3
+IceGrid.Node.Trace.Server=3
+
+
+#
+# Dummy username and password for icegridadmin.
+#
+IceGridAdmin.Username=bai	
+IceGridAdmin.Password=1
+

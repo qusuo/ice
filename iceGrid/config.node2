@@ -1,0 +1,24 @@
+#
+# The IceGrid locator proxy.
+#
+Ice.Default.Locator=DemoIceGrid/Locator:default -h 192.168.1.28 -p 4061 -t 10000
+
+#
+# IceGrid node configuration.
+#
+IceGrid.Node.Name=node2
+#tcp -t 10000 -h localhost
+IceGrid.Node.Endpoints=default
+IceGrid.Node.Data=db/node2
+
+#Ice.StdErr=db/node2/stderr.txt
+#Ice.StdOut=db/node2/stdout.txt
+
+#
+# Trace properties.
+#
+#Ice.ProgramName=Node2
+IceGrid.Node.Trace.Replica=2
+IceGrid.Node.Trace.Activator=3
+IceGrid.Node.Trace.Adapter=3
+IceGrid.Node.Trace.Server=3
